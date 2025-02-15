@@ -5,7 +5,7 @@ import { Toaster } from "react-hot-toast";
 import SuccessPage from "./Views/SuccessPage";
 import CoursePreview from "./Views/CoursePreview";
 import CongratPage from "./Views/CongratPage";
-import Welcome from "./Views/welcome";
+import welcome from "./Views/welcome";
 
 
 
@@ -26,7 +26,7 @@ function App() {
       />
      <BrowserRouter>
     <Routes>
-    <Route index element={<Welcome />} />
+    <Route index element={<welcome />} />
     <Route path="/level_one" element={<Quiz />} />
     <Route path="/level_two" element={<CoursePreview />} />
     <Route path="/success" element={<SuccessPage />} />
