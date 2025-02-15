@@ -4,8 +4,9 @@ import Quiz from "./Views/Quiz";
 import { Toaster } from "react-hot-toast";
 import SuccessPage from "./Views/SuccessPage";
 import CoursePreview from "./Views/CoursePreview";
-import Welcome from "./Views/welcome";
 import CongratPage from "./Views/CongratPage";
+import Welcome from "./Views/welcome";
+
 
 
 function App() {
