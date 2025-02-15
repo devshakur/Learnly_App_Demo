@@ -2,7 +2,7 @@ import React from 'react'
 import {Box, Typography, Button} from '@mui/material'
 import { useNavigate } from 'react-router-dom'
 
-const welcome = () => {
+const Welcome = () => {
     const navigate = useNavigate()
   const handleNavigate = ()=>{
     navigate('/level_one')
@@ -17,4 +17,4 @@ const welcome = () => {
   )
 }
 
-export default welcome;
+export default Welcome;
